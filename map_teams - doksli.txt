@@ -1,0 +1,1214 @@
+﻿# stadiumserver for PES 2017 sider
+# stadium-to-home_team assignment map
+# format: team_ID, stadium_id, stadium_name, stadium_path # optional comment
+#      => stadium_id - three-digit ID that stadium creator used to make stadium (always write leading 0s - ID 007 is correct; 07 or 7 are not)
+#      => stadium_name - stadium name to be displayed in-game
+#      => stadium_path - always relative to stadium-server folder, containing either individual stadium (recommended) or stadium pack (avoid if possible)
+# e.g. 100, 007, Old Trafford, Path to My Old Trafford
+#      100, 007, Old Trafford, EPL\Path to My Old Trafford  -> subfolders are supported too
+
+# Premier League
+
+101, 052, Emirates Stadium, EPL\Emirates Stadium						# Arsenal FC
+107, 066, Villa Park, EPL\Villa Park								# Aston Villa FC
+4071, 092, Vitality Stadium, EPL\Vitality Stadium						# AFC Bournemouth FC
+4180, 102, Griffin Park London, EPL\Griffin Park London						# Brentford FC
+377, 059, Falmer Stadium, EPL\Falmer Stadium							# Brighton & Hove Albion FC
+102, 009, Stamfrod Bridge, EPL\Stamfrod Bridge							# Chelsea FC
+382, 013, Selhurst Park, EPL\Selhurst Park							# Crystal Palace FC
+177, 108, Goodison Park, EPL\Goodison Park							# Everton FC
+178, 066, Craven Cottage, EPL\Craven Cottage							# Fulham FC
+386, 236, Portman Road, EPL\Portman Road							# Ipswich Town FC
+204, 109, King Power Stadium, EPL\King Power Stadium						# Leicester City FC
+103, 004, Anfield Road, EPL\Anfield Road							# Liverpool FC
+173, 060, Etihad Stadium, EPL\Etihad Stadium							# Manchester City FC
+100, 007, Old Trafford, EPL\Old Trafford							# Manchester United FC
+106, 081, St. James Park, EPL\St. James Park							# Newcastle United FC
+389, 066, City Ground,	EPL\City Ground								# Nottingham Forest FC
+207, 104, St. Mary's Stadium, EPL\St. Mary's Stadium						# Southampton FC
+179, 013, Tottenham Stadium, EPL\Tottenham Stadium						# Tottenham Stadium
+105, 103, London Stadium, EPL\London Stadium							# West Ham United FC
+208, 103, Molineux Stadium, EPL\Molineux Stadium						# Wolverhampton Wanderers FC
+
+# EFL SkyBet Championship
+
+176, 098, Ewood Park, EFL\Ewood Park								# Blackburn Rovers FC
+1760, 096, Ashton Gate, EFL\Ashton Gate								# Bristol City FC
+378, 013, Turf Moor Stadium, EFL\Turf Moor Stadium						# Burnley FC
+379, 066, Cardiff City Stadium, EFL\Cardiff City Stadium					# Cardiff City FC
+4183, 070, Coventry Building Society Arena, EFL\Coventry Building Society Arena			# Coventry City FC
+383, 122, Pride Park Stadium, EFL\Pride Park Stadium						# Derby County FC
+1589, 056, KCOM Stadium, EFL\KCOM Stadium							# Hull City AFC
+104, 074, Elland Road, EFL\Elland Road								# Leeds United FC
+4363, 102, Kenilworth Road Stadium, EFL\Kenilworth Road Stadium					# Luton Town FC
+205, 066, Riverside Stadium, EFL\Riverside Stadium						# Middlesbrough FC
+387, 099, The Den, EFL\The Den									# Millwall FC
+388, 066, Carrow Road, EFL\Carrow Road 								# Norwich City FC
+5086, 174, Stadion 23 November, Random Stadium\Stadion 23 November				# Oxford United FC
+4364,												# Plymouth Argyle FC
+4365, 066, Fratton Park, EFL\Fratton Park							# Portsmouth FC
+4192, 125, Deepdale Stadium, EFL\Deepdale Stadium						# Preston North End FC
+1327, 167, Loftus Road, EFL\Loftus Road								# Queen Park Rangers FC
+4194, 097, Bramall Lane, EFL\Bramall Lane							# Sheffield United FC
+394, 066, Hillsborough Stadium, EFL\Hillsborough Stadium					# Sheffield Wednesday FC
+395, 091, Britannia Stadium, EFL\Britannia Stadium						# Stoke City FC
+396, 107, Stadium of Light, EFL\Stadium of Light						# Sunderland AFC
+1909, 087, Liberty Stadium, EFL\Liberty Stadium							# Swansea City AFC
+398, 086, Vicarage Road, EFL\Vicarage Road							# Watford FC
+399, 066, The Hawthorns, EFL\The Hawthorns							# West Bromwich Albion FC
+
+# Ligue 1
+
+403, 086, Stade Raymond Kopa, Ligue 1\Stade Jean Bouin						# Angers SCO
+180, 183, Stade Abbé-Deschamps, Ligue 1\Stade Abbé-Deschamps					# AJ Auxerre
+112, 224, Stade Louis II, Ligue 1\Stade Louis II						# AS Monaco
+418, 043, Stade Geoffroy Guichard, Ligue 1\Stade Geoffroy Guichard				# AS Saint-Étienne
+216, 047, Stade de la Beaujoire, Ligue 1\Stade de la Beaujoire					# FC Nantes
+213, 078, Stade Pierre Mauroy, Ligue 1\Stade Pierre Mauroy					# LOSC Lille
+413, 												# Le Havre AC
+215, 076, Stade de la Mosson, Ligue 1\Stade de la Mosson					# Montpellier Hérault SC
+113, 112, Stade Velodrome, Ligue 1\Stade Velodrome						# Olympique de Marseille
+217, 047, Stade Allianz Riviera, Ligue 1\Stade Allianz Riviera					# OGC Nice
+182, 037, Stade Bollaert Delelis, Ligue 1\Stade Bollaert Delelis				# RC Lens
+4213, 150, Stade de La Meinau, Ligue 1\Stade de La Meinau 					# RC Strasbourg Alsace
+1330, 185, Stade Auguste Delaune, Ligue 1\Stade Auguste Delaune 				# Stade de Reims
+1329, 111, Stade Francis Le Blé, Ligue 1\Stade Francis Le Blé					# Stade Brestois 29
+218, 216, Roazhon Park, Ligue 1\Roazhon Park							# Stade Rennais FC
+221, 157, Stade Municipal, Ligue 1\Stade Municipal						# Toulouse FC
+114, 140, Stade Parc des Princes, Ligue 1\Stade Parc des Princes				# Paris Saint-Germain
+181, 054, Parc Olympique Lyonnais, Ligue 1\Stade Parc						# Olympique Lyonnais
+
+# Serie A
+
+119, 001, Giuseppe Meazza, Serie A\Stadio Giuseppe Meazza Milano				# Internazionale Milano
+120, 128, Allianz Stadium, Serie A\Allianz Stadium   						# Juventus FC
+121, 030, San Siro, Serie A\Stadio San Siro Milano 						# AC Milan
+122, 132, Stadio Olimpico, Serie A\Stadio Olimpico Roma Lazio					# SS Lazio
+123, 096, Stadio Ennio Tardini, Serie A\Stadio Ennio Tardini					# Parma Calcio 1913
+124, 175, Artemio Franchi, Serie A\Artemio Franchi 						# ACF Fiorentina
+125, 132, Stadio Olimpico, Serie A\Stadio Olimpico Roma						# AS Roma
+186, 096, Stadio dall' Ara, Serie A\Stadio Renato Dall'Ara 					# Bologna FC 1909
+190, 099, Dacia Arena, Serie A\Dacia Arena							# Udinese Calcio
+234, 096, Gewiss Stadium, Serie A\Gewiss Stadium 						# Atalanta BC
+235, 047, Stadio Carlo Castellani, Serie A\Stadio Carlo Castellani   				# Empoli FC
+320, 096, Sardegna Arena, Serie A\Sardegna Arena				   		# Cagliari Calcio
+323, 096, Stadio Luigi Ferraris, Serie A\Stadio Luigi Ferraris					# Genoa CFC
+327, 021, San Paolo Stadium, Serie A\San Paolo Stadium						# SSC Napoli
+333, 080, Olympic Grande, Serie A\Olympic Grande Torino Stadium   				# Torino FC
+336, 047, Stadio Bentegodi, Serie A\Stadio Bentegodi						# Hellas Verona FC
+4219, 250, Stadio Giuseppe Sinigaglia, Serie A\Stadio Giuseppe Sinigaglia                       # COMO 1907
+4229, 196, Stadio Pier Luigi Penzo, Serie A\Stadio Pier Luigi Penzo  				# Venezia FC
+4237, 205, Stadio Via Del Mare, Serie A\Stadio Via Del Mare					# US Lecce
+4914, 099, Stadio Brianteo, Serie A\Stadio Brianteo						# AC Monza
+
+# Serie BKT
+
+187, 103, Stadio Mario Rigamonti, Serie BKT\Stadio Mario Rigamonti				# Brescia Calcio
+237, 151, Marina Stadium Singapore, Marina							# Modena FC
+238, 067, Stadio Renzo Barbera, Serie BKT\Stadio Renzo Barbera	        			# Palermo FC
+240, 096, Stadio Marassi Genova, Serie BKT\Stadio Marassi					# UC Sampdoria
+319, 151, Marina Stadium Singapore, Marina							# SSC Bari
+1362, 151, Marina Stadium Singapore, Marina							# Cesena FC
+1600, 232, Stadio Alberto Picco, Serie BKT\Stadio Alberto Picco					# Spezia Calcio
+1919, 096, Mapei Stadium Reggio Emilia, Serie BKT\Mapei Stadium Reggio Emilia			# US Sassuolo Calcio
+1920, 156, Stadio Piercesare Tombolato, Serie BKT\Stadio Piercesare Tombolato			# AS Cittadella
+2517, 151, Marina Stadium Singapore, Marina							# SS Juve Stabia
+4218, 151, Marina Stadium Singapore, Marina							# Carrarese Calcio 1908
+4220, 198, Stadio Giovanni Zini, Serie BKT\Stadio Giovanni Zini					# US Cremonese
+4225, 151, Marina Stadium Singapore, Marina							# AC Reggiana 1919
+4228, 151, Marina Stadium Singapore, Marina							# FC Südtirol
+4233, 151, Marina Stadium Singapore, Marina							# US Catanzaro 1929
+4234, 096, Stadio Benito Stirpe, Serie BKT\Stadio Benito Stirpe					# Frosinone Calcio
+4241, 104, Stadio Arena Garibaldi, Serie BKT\Stadio Arena Garibaldi				# Pisa Sporting Club
+4244, 151, Marina Stadium Singapore, Marina							# US Salernitana 1919
+4379, 151, Marina Stadium Singapore, Marina						# Mantova 1911
+4928, 110, Stadio San Vito, Serie BKT\Stadio San Vito						# Cosenza Calcio
+4141, 122, Stadio Adriatico, Serie BKT\Stadio Adriatico Pescara					# Delfino Pescara 1936
+
+# Eredivisie
+
+116, 187, Amsterdam Arena, Eredivisie\Amsterdam Arena  						# AFC Ajax
+117, 020, De Kuip Stadion, Eredivisie\De Kuip Stadion 						# Feyenoord Rotterdam
+118, 043, Philips Stadion, Eredivisie\Philips Stadion						# PSV Eindhoven
+242, 246, AFAS Stadion, Eredivisie\AFAS Stadion							# AZ Alkmaar
+244, 180, Euroborg Stadion, Eredivisie\Euroborg Stadion						# FC Groningen
+245, 186, Abe Lenstra Stadion, Eredivisie\Abe Lenstra Stadion					# SC Heerenveen
+246, 191, Rat Verlegh Stadion, Eredivisie\Rat Verlegh Stadion					# NAC Breda
+247, 151, Goffertstadion Stadion, Eredivisie\Goffert stadion					# N.E.C Nijmegen
+250, 102, De Grolsch Veste Stadion, Eredivisie\De Grolsch Veste Stadion				# FC Twente Enschede
+251, 182, Stadion Galgenwaard, Eredivisie\Stadion Galgenwaard					# FC Utrecht
+254, 092, Stadion Mandemakers, Eredivisie\Stadion Mandemakers 					# RKC Waalwijk
+255, 195, Willem II stadion, Eredivisie\Willem II stadion					# Willem II Tilburg
+256, 179, IJsseldeltastadion, Eredivisie\IJsseldelta stadion					# PEC Zwolle
+345, 177, Wagner & Partners Stadion, Eredivisie\Wagner & Partners Stadion			# Fortuna Sittard
+346, 												# Go Ahead Eagles
+349, 189, Polman Stadion, Eredivisie\Polman Stadion						# Heracles Almelo
+351, 133, Woudestein Stadion, Eredivisie\Woudestein Stadion					# Sparta Rotterdam
+1598,	 											# Almere City FC
+
+# La Liga
+
+108, 002, Spotify Camp Nou, La Liga\Estadio Camp Nou   						# FC Barcelona
+109, 020, Santiago Bernabeu, La Liga\Estadio Santiago Bernabeu   				# Real Madrid CF
+110, 040, Estadio de Mestalla, La Liga\Estadio de Mestalla   					# Valencia CF
+172, 215, Wanda Metropolitano, La Liga\Wanda Metropolitano  					# Club Atlético de Madrid
+194, 102, Estadio Benito Villamarin, La Liga\Estadio Benito Villamarin   			# Real Betis Balompié
+195, 137, Estadio de Balaídos, La Liga\Estadio de Balaídos  	   				# RC Celta de Vigo
+196, 043, Estadio Anoeta, La Liga\Estadio Anoeta	   					# Real Sociedad de Fútbol
+258, 176, Estadio San Mames, La Liga\Estadio San Mames   					# Athletic Club de Bilbao
+259, 151, Estadio Cornella El Prat, La Liga\Estadio Cornella El Prat   				# RCD Espanyol
+261, 027, Ibero Estadi, La Liga\Ibero Estadi   							# RCD Mallorca
+263, 033, Estadio El Sadar, La Liga\Estadio El Sadar    					# CA Osasuna
+265, 003, Ramon Sanchez Pizjuan, La Liga\Ramon Sanchez Pizjuan  				# Sevilla FC
+266, 157, Estadio Jose Zorrilla, La Liga\Estadio Jose Zorrilla   				# Real Valladolid CF
+267, 121, Estadio de la Ceramica, La Liga\Estadio de la Ceramica   				# Villarreal CF
+362, 119, Coliseum Alfonso Pérez, La Liga\Coliseum Alfonso Pérez   				# Getafe CF
+364, 078, Estadio Gran Canaria, La Liga\Gran Canaria   						# UD Las Palmas
+370, 119, Estadio Campo de futbol de Vallecas, La Liga\Estadio Campo de futbol de Vallecas	# Rayo Vallecano de Madrid
+2187, 155, Estadi Montilivi, La Liga\Estadi Montilivi						# Girona FC
+4145, 056, Estadio de Mendizorozza, La Liga\Estadio de Mendizorozza  				# Deportivo Alavés
+4272, 114, Municipal de Butarque, La Liga\Municipal de Butarque					# CD Leganés
+
+# The Primeira Liga
+
+#191, 131, Estadio da Luz Lisboa, The Primeira Liga\Estadio da Luz Lisboa			# SL Benfica
+#192, 144, Estadio do Dragao, The Primeira Liga\Estadio do Dragao 				# FC Porto
+#193, 156, Estadio Josè Alvalade, The Primeira Liga\Estadio Josè Alvalade			# Sporting CP
+#546,												# AVS Futebol SAD
+#1804, 185, Estadio D. Afonso Henriques, The Primeira Liga\Estadio D. Afonso Henriques		# Vitória SC
+#1944, 234, Estadio Nacional de Jamor, The Primeira Liga\Estadio Nacional do Jamor		# CD Nacional
+#1974, 039, Estadio Municipal de Braga, The Primeira Liga\Estádio Municipal de Braga		# Sporting Braga
+#1979, 111, Estadio do Rio Ave FC, The Primeira Liga\Estádio do Rio Ave FC 			# Rio Ave FC
+#2380, 098, Estadio Municipal Arouca, The Primeira Liga\Estadio Municipal Arouca			# FC Arouca
+#2383,												# GD Estoril Praia
+#2387,												# Gil Vicente FC
+#2388,												# Moreirense FC
+#2391,												# CD Santa Clara
+#4086, 176, Estádio Algarve Faro, The Primeira Liga\Estádio Algarve Faro				# SC Farense
+#4323, 152, Estadio do Bessa Seculo XXI, The Primeira Liga\Estadio do Bessa 			# Boavista FC
+#5028,												# FC Famalicão
+#5633,												# Casa Pia AC
+#5844,												# CF Estrela da Amadora
+
+# Bundesliga
+
+127, 172, Allianz Arena, Bundesliga\Allianz Arena      						# FC Bayern München
+128, 041, BayArena, Bundesliga\BayArena    							# Bayer 04 Leverkusen
+185, 085, WerserStadion, Bundesliga\WerserStadion   						# SV Werder Bremen
+225, 138, Borussia Park, Bundesliga\Borussia Park   						# VfL Borussia M’gladbach
+226, 177, The Waldstadion, Bundesliga\Commerzbank Arena						# Eintracht Frankfurt
+227, 057, Schwarzwald Stadion, Bundesliga\Schwarzwald Stadion    				# SC Freiburg
+231, 171, MHP Arena, Bundesliga\Mercedes Benz Arena   						# VfB Stuttgart
+232, 017, Volkswagen Arena, Bundesliga\Volkswagen Arena    					# VfL Wolfsburg
+436, 076, Mewa Arena, Bundesliga\Opel Arena    							# 1. FSV Mainz 05
+4124, 096, Augsburg Arena, Bundesliga\WWK Arena							# FC Augsburg
+4126, 055, Wirsol Rhein-Neckar-Arena, Bundesliga\Wirsol Rhein-Neckar-Arena			# TSG 1899 Hoffenheim
+4128, 075, Vonovia Stadion, Bundesliga\Vonovia Stadion						# VfL Bochum 1848
+4139,												# FC St. Pauli
+4140, 148, Stadion An der Alten Försterei, Bundesliga\Stadion An der Alten Forsterei		# 1. FC Union Berlin
+5009,												# 1. FC Heidenheim
+5010, 087, Red Bull Arena, Bundesliga\Red Bull Arena						# RB Leipzig
+5719,												# KSV Holstein
+#126, 003, Signal Iduna Park, Bundesliga\Signal Iduna Park					# Borussia Dortmund
+
+# J1 League
+
+144, 070, Sapporo Dome, J1 League\Sapporo Dome		    					# Consadole Sapporo
+146, 151, Kashima Soccer Stadium, J1 League\Kashima Soccer Stadium				# Kashima Antlers
+147, 023, Saitama Stadium, J1 League\Saitama Stadium						# Urawa Reds
+149, 118, Hitachi Kashiwa Soccer Stadium, J1 League\Hitachi Kashiwa Soccer Stadium		# Kashiwa Reysol
+150, 102, Ajinamoto Stadium, J1 League\Ajinamoto Stadium    					# FC Tokyo
+151, 102, Ajinamoto Stadium, J1 League\Ajinamoto Stadium   					# Tokyo Verdy
+152, 070, Nissan Stadium, J1 League\Nissan Stadium    						# Yokohama F. Marinos
+154, 204, Yamaha Stadium, J1 League\Yamaha Stadium						# Jubilo Iwata
+155, 070, Toyota Stadium, J1 League\Toyota Stadium    						# Nagoya Grampus
+156, 070, Sanga Stadium, J1 League\Sanga Stadium    						# Kyoto Sanga FC
+157, 097, Suita Stadium, J1 League\Suita Stadium						# Gamba Osaka
+158, 116, Home's Stadium, J1 League\Home's Stadium						# Vissel Kobe
+159, 070, Edion Stadium, J1 League\Edion Stadium   						# Sanfrecce Hiroshima
+163, 210, Todoroki Athletics Stadium, J1 League\Todoroki Athletics Stadium			# Kawasaki Frontale
+165, 070, Lemon Gas Stadium, J1 League\Lemon Gas Stadium   					# Shonan Bellmare
+167, 183, Denka Big Swan Stadium, J1 League\Denka Big Swan Stadium				# Albirex Niigata
+168, 205, Yanmar Stadium Nagai, J1 League\Yanmar Stadium Nagai					# Cerezo Osaka
+169, 114, Level-5 Stadium, J1 League\Level-5 Stadium						# Avispa Fukuoka
+170,    											# Sagan Tosu
+2372,												# FC Machida Zelvia
+
+# Liga 1 Indonesia
+
+503, 045, GBK, Indonesia\Gelora Bung Karno						# Bhayangkara FC
+5589, 035, Jakarta International Stadium, Stadium AZxOG\Jakarta International Stadium	# Persija Jakarta
+5750, 035, Jakarta International Stadium, Stadium AZxOG\Jakarta International Stadium	# Indonesia
+501, 045, GBK, Indonesia\Gelora Bung Karno						# Madura United FC
+507, 045, GBK, Indonesia\Gelora Bung Karno						# Borneo FC Samarinda
+509, 035, Jakarta International Stadium, Stadium AZxOG\Jakarta International Stadium	# Persita Tangerang
+511, 045, GBK, Indonesia\Gelora Bung Karno						# Persis Solo
+512, 045, GBK, Indonesia\Gelora Bung Karno						# Dewa United FC
+513, 045, GBK, Indonesia\Gelora Bung Karno						# PSBS Biak
+514, 045, GBK, Indonesia\Gelora Bung Karno						# Semen Padang FC
+515, 045, GBK, Indonesia\Gelora Bung Karno						# Malut United FC
+516, 045, GBK, Indonesia\Gelora Bung Karno						# PSIM Yogyakarta
+517, 045, GBK, Indonesia\Gelora Bung Karno						# Persijap Jepara
+1339, 045, GBK, Indonesia\Gelora Bung Karno						# Persebaya Surabaya
+1480, 174, Stadion 23 November, Random Stadium\Stadion 23 November			# Arema FC
+1579, 013, Stadion Patriot, @PACK\Stadium AZ x OG					# Persik Kediri
+4945, 013, Stadion Patriot, Stadium AZxOG\Stadion Patriot Bekasi			# Persib Bandung
+5930, 045, GBK, Indonesia\Gelora Bung Karno						# Bali United FC
+5931, 045, GBK, Indonesia\Gelora Bung Karno						# PSM Makassar
+
+# Primeira Liga
+
+191, 008, Estadio Da Luz, @PACK\Stadium AZ x OG				# SL Benfica
+
+# Süper Lig
+
+130, 033, Turk Telekom Arena, Stadium AZxOG\Turk Telekom Arena			# Galatasaray SK
+
+# Brasileirão
+
+1254, 016, Vila Belmiro, @PACK\Stadium AZ x OG				# Santos FC
+1255, 014, Estadio do Morumbi, @PACK\Stadium AZ x OG				# Sao Paulo
+5137, 044, Alfredo Jaconi, @PACK\Stadium AZ x OG				# EC Juventude
+
+# J1 League
+
+147, 023, Saitama Stadium, @PACK\Stadium AZ x OG                          	# Urawa Reds
+
+# Primera Division (Argentina)
+
+139, 028, La Bombonera, @PACK\Stadium AZ x OG				# Boca Juniors
+1237, 024, El Cilindro, @PACK\Stadium AZ x OG				# Racing Club
+
+# MLS
+
+5736, 049, Mercedes-Benz Stadium, @PACK\Stadium AZ x OG			# Atlanta United
+
+# National Team
+
+5, 005, Wembley Stadium, @PACK\Stadium AZ x OG				# England
+5750, 045, Gelora Bung Karno, @PACK\Stadium AZ x OG				# Indonesia
+
+# Republik Irlandia
+1, 005, Wembley Stadium, @PACK\Stadium AZ x OG				# Republik Irlandia
+
+# Irlandia Utara
+2, 005, Wembley Stadium, @PACK\Stadium AZ x OG				# Irlandia Utara
+
+# Skotlandia
+3, 005, Wembley Stadium, @PACK\Stadium AZ x OG				# Skotlandia
+#131,,, # Celtic FC
+#132,,, # Rangers FC
+#1219,,, # Aberdeen FC
+#1220,,, # Dundee United FC
+#1221,,, # Heart of Midlothian FC
+#1222,,, # Hibernian FC
+#1985,,, # Kilmarnock FC
+#1986,,, # Motherwell FC
+#1987,,, # St. Mirren FC
+#2621,,, # Dundee FC
+#5317,,, # Falkirk FC
+#5319,,, # Livingston FC
+
+# Wales
+4, 005, Wembley Stadium, @PACK\Stadium AZ x OG				# Wales
+#1909,,, # Swansea City ΑFC
+#6069,,, # Wrexham AFC
+
+# Inggris
+#5,,, # Inggris
+#100,,, # Manchester United
+#101,,, # Arsenal FC
+#102,,, # Chelsea FC
+#103,,, # Liverpool FC
+#104,,, # Leeds United FC
+#105,,, # West Ham United FC
+#106,,, # Newcastle United FC
+#107,,, # Aston Villa FC
+#140,,, # ML Default Europe
+#173,,, # Manchester City FC
+#176,,, # Blackburn Rovers FC
+#177,,, # Everton FC
+#178,,, # Fulham FC
+#179,,, # Tottenham Hotspur FC
+#201,,, # Birmingham City FC
+#203,,, # Charlton Athletic FC
+#204,,, # Leicester City FC
+#205,,, # Middlesbrough FC
+#207,,, # Southampton FC
+#208,,, # Wolverhampton Wanderers FC
+#377,,, # Brighton & Hove Albion FC
+#378,,, # Burnley FC
+#382,,, # Crystal Palace FC
+#383,,, # Derby County FC
+#386,,, # Ipswich Town FC
+#387,,, # Millwall FC
+#388,,, # Norwich City FC
+#389,,, # Nottingham Forest FC
+#394,,, # Sheffield Wednesday FC
+#395,,, # Stoke City FC
+#396,,, # Sunderland ΑFC
+#398,,, # Watford FC
+#399,,, # West Bromwich Albion FC
+#1327,,, # Queens Park Rangers FC
+#1458,,, # Pes Classics
+#1589,,, # Hull City AFC
+#1760,,, # Bristol City FC
+#2703,,, # European Classics
+#4071,,, # AFC Bournemouth
+#4180,,, # Brentford FC
+#4183,,, # Coventry City FC
+#4192,,, # Preston North End FC
+#4194,,, # Sheffield United FC
+#4365,,, # Portsmouth FC
+#4971,,, # The Old Boys
+#5086,,, # Oxford United FC
+
+# Portugal
+#6,,, # Portugal
+#191,,, # SL Benfica
+#192,,, # FC Porto
+#193,,, # Sporting CP
+#1804,,, # Vitória SC
+#1944,,, # CD Nacional
+#1974,,, # Sporting Braga
+#1979,,, # Rio Ave FC
+#2380,,, # FC Arouca
+#2383,,, # GD Estoril Praia
+#2387,,, # Gil Vicente FC
+#2388,,, # Moreirense FC
+#2391,,, # CD Santa Clara
+#2614,,, # CD Tondela
+#5028,,, # FC Famalicão
+#5633,,, # Casa Pia AC
+#5844,,, # CF Estrela da Amadora
+#5845,,, # FC Alverca
+#5954,,, # AVS Futebol
+
+# Spanyol
+#7,,, # Spanyol
+#108,,, # FC Barcelona
+#109,,, # Real Madrid CF
+#110,,, # Valencia CF
+#111,,, # Deportivo La Coruña
+#172,,, # Club Atlético de Madrid
+#194,,, # Real Betis Balompié
+#195,,, # RC Celta de Vigo
+#196,,, # Real Sociedad de Fútbol
+#258,,, # Athletic Club de Bilbao
+#259,,, # RCD Espanyol
+#260,,, # Málaga CF
+#261,,, # RCD Mallorca
+#263,,, # CA Osasuna
+#264,,, # Real Racing Club de Santander
+#265,,, # Sevilla FC
+#266,,, # Real Valladolid CF
+#267,,, # Villarreal CF
+#268,,, # Real Zaragoza
+#357,,, # UD Almería
+#359,,, # Córdoba CF
+#361,,, # Elche CF
+#362,,, # Getafe CF
+#363,,, # Real Sporting de Gijón
+#364,,, # UD Las Palmas
+#366,,, # Levante UD
+#370,,, # Rayo Vallecano de Madrid
+#1462,,, # BT Classics
+#1765,,, # Granada CF
+#2187,,, # Girona FC
+#2188,,, # SD Huesca
+#2616,,, # CD Mirandés
+#4145,,, # Deportivo Alavés
+#4146,,, # SD Eibar
+#4247,,, # Burgos CF
+#4252,,, # Cultural y Deportiva Leonesa
+#4260,,, # Real Oviedo
+#4272,,, # CD Leganés
+#4276,,, # Real Sociedad de Fútbol B
+#4302,,, # Albacete Balompié
+#4308,,, # Cádiz CF
+#4395,,, # CD Castellón
+#5895,,, # AD Ceuta FC
+
+# Prancis
+#8,,, # Prancis
+#112,,, # AS Monaco
+#113,,, # Olympique de Marseille
+#114,,, # Paris Saint-Germain
+#180,,, # AJ Auxerre
+#181,,, # Olympique Lyonnais
+#182,,, # RC Lens
+#210,,, # SC Bastia
+#211,,, # En Avant Guingamp
+#212,,, # Le Mans FC
+#213,,, # LOSC Lille
+#215,,, # Montpellier Hérault SC
+#216,,, # FC Nantes
+#217,,, # OGC Nice
+#218,,, # Stade Rennais FC
+#221,,, # Toulouse FC
+#403,,, # Angers SCO
+#405,,, # Stade Malherbe Caen
+#407,,, # Clermont Foot 63
+#412,,, # Stade Lavallois MFC
+#413,,, # Havre AC
+#414,,, # FC Lorient
+#415,,, # AS Nancy-Lorraine
+#418,,, # AS Saint-Étienne
+#420,,, # ESTAC Troyes
+#1328,,, # Dijon FCO
+#1329,,, # Stade Brestois 29
+#1330,,, # Stade de Reims
+#1463,,, # EFB Classic
+#4123,,, # FC Metz
+#4200,,, # Amiens SC
+#4201,,, # US Boulogne CO
+#4206,,, # USL Dunkerque
+#4211,,, # Paris FC
+#4212,,, # Red Star FC
+#4213,,, # RC Strasbourg Alsace
+#4370,,, # Grenoble Foot 38
+#4372,,, # Rodez Aveyron Football
+#4373,,, # FC Rouen 1899
+#5099,,, # Pau FC
+#5685,,, # FC Annecy
+#5886,,, # FC Versailles 78
+
+# Belgia
+#9,,, # Belgia
+#174,,, # RSC Anderlecht
+#269,,, # Club Brugge KV
+#1195,,, # KRC Genk
+#1196,,, # KAA Gent
+#1197,,, # Royal Standard de Liège
+#1200,,, # KV Mechelen
+#2009,,, # Cercle Brugge KSV
+#2010,,, # Royal Charleroi SC
+#2019,,, # SV Zulte Waregem
+#5191,,, # Royal Antwerp FC
+#5194,,, # Sint-Truidense VV
+#5217,,, # Oud-Heverlee Leuven
+#5220,,, # R. Union Saint-Gilloise
+#5221,,, # KVC Westerlo
+#5878,,, # FCV Dender EH
+#6067,,, # RAAL La Louvière
+
+# Belanda
+#10,,, # Belanda
+#116,,, # AFC Ajax
+#117,,, # Feyenoord
+#118,,, # PSV Eindhoven
+#242,,, # AZ Alkmaar
+#244,,, # FC Groningen
+#245,,, # sc Heerenveen
+#246,,, # NAC Breda
+#247,,, # N.E.C. Nijmegen
+#250,,, # FC Twente
+#251,,, # FC Utrecht
+#253,,, # FC Volendam
+#256,,, # PEC Zwolle
+#344,,, # Excelsior Rotterdam
+#345,,, # Fortuna Sittard
+#346,,, # Go Ahead Eagles
+#349,,, # Heracles Almelo
+#351,,, # Sparta Rotterdam
+#352,,, # SC Telstar
+
+# Swiss
+#11,,, # Swiss
+#1228,,, # Grasshopper Club Zürich
+#1706,,, # FC Basel 1893
+#1950,,, # BSC Young Boys
+#1955,,, # FC Sion
+#1957,,, # FC Zürich
+#1958,,, # Servette FC
+#4937,,, # FC St. Gallen 1879
+#4938,,, # FC Thun 1898
+#4962,,, # FC Luzern
+#4964,,, # FC Lausanne-Sport
+#4965,,, # FC Lugano
+#4968,,, # FC Winterthur
+
+# Italia
+#12,,, # Italia
+#119,,, # Internazionale Milano
+#120,,, # Juventus FC
+#121,,, # AC Milan
+#122,,, # S.S. Lazio
+#123,,, # Parma Calcio 1913
+#124,,, # ACF Fiorentina
+#125,,, # AS Roma
+#186,,, # Bologna FC 1909
+#190,,, # Udinese Calcio
+#234,,, # Atalanta BC
+#235,,, # Empoli FC
+#237,,, # Modena FC
+#238,,, # Palermo FC
+#240,,, # UC Sampdoria
+#319,,, # SSC Bari
+#320,,, # Cagliari Calcio
+#323,,, # Genoa CFC
+#327,,, # SSC Napoli
+#328,,, # Delfino Pescara 1936
+#333,,, # Torino FC
+#336,,, # Hellas Verona FC
+#1362,,, # Cesena FC
+#1459,,, # We Classics
+#1600,,, # Spezia Calcio
+#1919,,, # US Sassuolo Calcio
+#2320,,, # Calcio Padova
+#2517,,, # SS Juve Stabia
+#4141,,, # US Avellino 1912
+#4218,,, # Carrarese Calcio 1908
+#4219,,, # Como 1907
+#4220,,, # US Cremonese
+#4225,,, # AC Reggiana 1919
+#4228,,, # FC Südtirol
+#4229,,, # Venezia FC
+#4230,,, # Virtus Entella
+#4233,,, # US Catanzaro 1929
+#4234,,, # Frosinone Calcio
+#4237,,, # US Lecce
+#4241,,, # Pisa Sporting Club
+#4379,,, # Mantova 1911
+#4914,,, # AC Monza
+
+# Republik Ceko
+#13,,, # Republik Ceko
+#2037,,, # FC Viktoria Plzeň
+#5189,,, # SK Slavia Praha
+
+# Jerman
+#14,,, # Jerman
+#126,,, # Borussia Dortmund
+#127,,, # FC Bayern München
+#128,,, # Bayer 04 Leverkusen
+#129,,, # Hamburger SV
+#185,,, # SV Werder Bremen
+#225,,, # VfL Borussia M'gladbach
+#226,,, # Eintracht Frankfurt
+#227,,, # SC Freiburg
+#231,,, # VfB Stuttgart
+#232,,, # VfL Wolfsburg
+#436,,, # 1. FSV Mainz 05
+#1460,,, # Myclub Classics
+#4124,,, # FC Augsburg
+#4126,,, # TSG 1899 Hoffenheim
+#4137,,, # 1. FC Köln
+#4139,,, # FC St. Pauli
+#4140,,, # 1. FC Union Berlin
+#5009,,, # 1. FC Heidenheim
+#5010,,, # RB Leipzig
+
+# Denmark
+#15,,, # Denmark
+#1207,,, # F.C. København
+#1208,,, # FC Nordsjælland
+#1832,,, # Brøndby IF
+#2067,,, # Aarhus GF
+#2069,,, # FC Midtjylland
+#2070,,, # Odense Boldklub
+#2071,,, # Randers FC
+#5225,,, # Silkeborg IF
+#5226,,, # Sønderjyske Fodbold
+#5229,,, # FC Fredericia
+#5235,,, # Vejle BK
+#5237,,, # Viborg FF
+
+# Norwegia
+#16,,, # Norwegia
+#5253,,, # FK Bodø/Glimt
+
+# Swedia
+#17,,, # Swedia
+
+# Finlandia
+#18,,, # Finlandia
+
+# Polandia
+#19,,, # Polandia
+
+# Slowakia
+#20,,, # Slowakia
+
+# Austria
+#21,,, # Austria
+#1586,,, # FC Salzburg
+#2081,,, # SK Sturm Graz
+
+# Hongaria
+#22,,, # Hongaria
+#556,,, # Ferencvárosi TC
+
+# Slovenia
+#23,,, # Slovenia
+
+# Kroasia
+#24,,, # Kroasia
+#1203,,, # GNK Dinamo Zagreb
+
+# Rumania
+#26,,, # Rumania
+
+# Bulgaria
+#27,,, # Bulgaria
+
+# Yunani
+#28,,, # Yunani
+#133,,, # Olympiacos FC
+
+# Turki
+#29,,, # Turki
+#130,,, # Galatasaray SK
+#197,,, # Fenerbahçe SK
+#273,,, # Beşiktaş JK
+#1230,,, # Gençlerbirliği SK
+#1945,,, # Trabzonspor
+#1989,,, # Antalyaspor
+#1995,,, # RAMS Başakşehir FK
+#1996,,, # Mondihome Kayserispor
+#2625,,, # Kasımpaşa SK
+#5202,,, # Corendon Alanyaspor
+#5203,,, # Göztepe SK
+#5204,,, # Konyaspor
+#5354,,, # Çaykur Rizespor
+#5356,,, # Gaziantep FK
+#5361,,, # Samsunspor
+#5652,,, # Fatih Karagümrük SK
+#5820,,, # Eyüpspor
+#5821,,, # Kocaelispor
+
+# Ukraina
+#30,,, # Ukraina
+
+# Rusia
+#31,,, # Rusia
+
+# Maroko
+#32,,, # Maroko
+
+# Tunisia
+#33,,, # Tunisia
+
+# Mesir
+#34,,, # Mesir
+
+# Nigeria
+#35,,, # Nigeria
+
+# Kamerun
+#36,,, # Kamerun
+
+# Afrika Selatan
+#37,,, # Afrika Selatan
+#1386,,, # Pleasure Horn
+
+# Senegal
+#38,,, # Senegal
+
+# Amerika Serikat
+#39,,, # Amerika Serikat
+#4148,,, # Chicago Fire FC
+#4150,,, # Colorado Rapids
+#4151,,, # Columbus Crew
+#4152,,, # D.C. United
+#4153,,, # FC Dallas
+#4154,,, # Houston Dynamo FC
+#4155,,, # Los Angeles Galaxy
+#4157,,, # New England Revolution
+#4158,,, # New York Red Bulls
+#4159,,, # Philadelphia Union
+#4160,,, # Portland Timbers
+#4161,,, # Real Salt Lake
+#4162,,, # San Jose Earthquakes
+#4163,,, # Seattle Sounders FC
+#4164,,, # Sporting Kansas City
+#5061,,, # New York City FC
+#5062,,, # Orlando City SC
+#5736,,, # Atlanta United FC
+#5737,,, # FC Cincinnati
+#5738,,, # Inter Miami CF
+#5739,,, # Nashville SC
+#5740,,, # Austin FC
+#5741,,, # Los Angeles FC
+#5742,,, # Minnesota United FC
+#5832,,, # Charlotte FC
+#5903,,, # St. Louis City SC
+#6084,,, # San Diego FC
+
+# Meksiko
+#40,,, # Meksiko
+#1264,,, # Club América
+#1700,,, # CD Guadalajara
+#1775,,, # Pumas UNAM
+#1782,,, # Tigres UANL
+
+# Jamaika
+#41,,, # Jamaika
+
+# Kosta Rika
+#42,,, # Kosta Rika
+
+# Honduras
+#43,,, # Honduras
+
+# Kolombia
+#44,,, # Kolombia
+#1257,,, # América de Cali
+#1258,,, # Millonarios FC
+#2193,,, # Atlético Nacional
+#2195,,, # Boyacá Chicó FC
+#2210,,, # Independiente Medellín
+#2284,,, # Once Caldas
+#2285,,, # CD Popular Junior FC
+#2361,,, # Club Deportes Tolima
+#2650,,, # Deportivo Cali
+#2651,,, # Deportivo Pasto
+#2652,,, # Envigado FC
+#2653,,, # Águilas Doradas Rionegro
+#2654,,, # CD La Equidad Seguros
+#2657,,, # Club Independiente Santa Fe
+#5207,,, # Alianza Petrolera FC
+#5208,,, # Club Atlético Bucaramanga
+#5370,,, # Deportivo Pereira
+#5371,,, # Fortaleza CEIF
+#5373,,, # Llaneros FC
+#5376,,, # Club Unión Magdalena
+
+# Brasil
+#45,,, # Brasil
+#136,,, # CR Vasco da Gama
+#137,,, # SE Palmeiras
+#274,,, # Cruzeiro EC
+#1245,,, # Atlético Mineiro
+#1246,,, # Botafogo FR
+#1247,,, # SC Corinthians Paulista
+#1248,,, # CR Flamengo
+#1249,,, # Fluminense FC
+#1250,,, # Grêmio FBPA
+#1252,,, # SC Internacional
+#1254,,, # Santos FC
+#1255,,, # São Paulo F.C.
+#1936,,, # Sport Recife
+#1937,,, # EC Vitória
+#2453,,, # EC Bahia
+#2454,,, # Ceará SC
+#2459,,, # Red Bull Bragantino
+#5137,,, # EC Juventude
+#5143,,, # Fortaleza EC
+#5767,,, # Mirassol FC
+
+# Peru
+#46,,, # Peru
+
+# Chili
+#47,,, # Chili
+#1256,,, # CSD Colo-Colo
+#2191,,, # CD Universidad Católica
+#2192,,, # Audax Italiano
+#2208,,, # Everton de Viña del Mar
+#2209,,, # Universidad de Chile
+#2360,,, # Unión Española
+#2541,,, # O'Higgins FC
+#2543,,, # Deportes Iquique
+#2544,,, # Deportes La Serena
+#2545,,, # CD Huachipato
+#2546,,, # CD Unión La Calera
+#2548,,, # CD Palestino
+#2553,,, # CD Cobresal
+#2699,,, # Deportivo Ñublense
+#2707,,, # CD Coquimbo Unido
+#5980,,, # CD Limache
+
+# Paraguay
+#48,,, # Paraguay
+
+# Uruguay
+#49,,, # Uruguay
+
+# Argentina
+#50,,, # Argentina
+#138,,, # CA River Plate
+#139,,, # CA Boca Juniors
+#1236,,, # Argentinos Juniors
+#1237,,, # Racing Club Avellaneda
+#1238,,, # Club Estudiantes LP
+#1239,,, # Gimnasia y Esgrima LP
+#1240,,, # CA Independiente
+#1241,,, # CA Newell's Old Boys
+#1242,,, # CA Rosario Central
+#1243,,, # CA San Lorenzo Almagro
+#1244,,, # CA Vélez Sarsfield
+#1922,,, # CA Huracán
+#1924,,, # CD Godoy Cruz
+#1925,,, # CA San Martín de San Juan
+#1926,,, # CA Tigre
+#1927,,, # CA Banfield
+#1929,,, # CA Lanús
+#2469,,, # ML Default Latinamerica
+#2536,,, # CA Belgrano
+#2538,,, # CA Unión de Santa Fe
+#2704,,, # World Classics
+#2717,,, # CA Aldosivi
+#2719,,, # Club Atlético Tucumán
+#2722,,, # CSD Defensa y Justicia
+#2726,,, # Independiente Rivadavia
+#2727,,, # Instituto ACC
+#2730,,, # CA Sarmiento
+#4995,,, # CA Central Córdoba SdE
+#5046,,, # CA Talleres de Córdoba
+#5366,,, # Deportivo Riestra AFBC
+#5454,,, # CA Platense
+#5657,,, # CA Barracas Central
+
+# Ekuador
+#51,,, # Ekuador
+
+# Jepang
+#52,,, # Jepang
+#146,,, # Kashima Antlers
+#147,,, # Urawa Reds
+#149,,, # Kashiwa Reysol
+#150,,, # FC Tokyo
+#151,,, # Tokyo Verdy
+#152,,, # Yokohama F. Marinos
+#153,,, # Shimizu S-Pulse
+#155,,, # Nagoya Grampus
+#156,,, # Kyoto Sanga F.C.
+#157,,, # Gamba Osaka
+#158,,, # Vissel Kobe
+#159,,, # Sanfrecce Hiroshima
+#163,,, # Kawasaki Frontale
+#164,,, # Yokohama FC
+#165,,, # Shonan Bellmare
+#167,,, # Albirex Niigata
+#168,,, # Cerezo Osaka
+#169,,, # Avispa Fukuoka
+#1881,,, # Fagiano Okayama
+#2372,,, # FC Machida Zelvia
+
+# Korea Selatan
+#53,,, # Korea Selatan
+#281,,, # Pohang Steelers
+#282,,, # FC Seoul
+#4174,,, # Ulsan HD
+#5913,,, # Gangwon FC
+
+# Tiongkok
+#54,,, # Tiongkok
+#295,,, # Beijing FC
+#4094,,, # Shanghai Port FC
+#5173,,, # Shanghai Shenhua FC
+#5665,,, # Chengdu Rongcheng FC
+
+# Iran
+#55,,, # Iran
+#1341,,, # Sepahan SC
+#1576,,, # Esteghlal FC
+#2602,,, # Tractor FC
+
+# Arab Saudi
+#56,,, # Arab Saudi
+#1349,,, # Al Ahli Saudi FC
+#1350,,, # Al Ittihad Club
+#1489,,, # Al Hilal SFC
+#2577,,, # Al Nassr FC
+#2696,,, # ML Default Asia
+
+# Australia
+#57,,, # Australia
+#5773,,, # Melbourne City FC
+#6189,,, # Macarthur FC
+
+# Bahrain
+#1002,,, # Bahrain
+#6036,,, # Al Khaldiya SC
+#6190,,, # Al Muharraq SC
+
+# Irak
+#1010,,, # Irak
+#4170,,, # Al Shorta SC
+#5591,,, # Al Zawraa SC
+
+# Yordania
+#1011,,, # Yordania
+#4954,,, # Al Wehdat SC
+#6040,,, # Al Hussein SC
+
+# Korea Utara
+#1012,,, # Korea Utara
+
+# Kuwait
+#1013,,, # Kuwait
+
+# Lebanon
+#1015,,, # Lebanon
+
+# Oman
+#1022,,, # Oman
+
+# Qatar
+#1026,,, # Qatar
+#1488,,, # Al Gharafa SC
+#2567,,, # Al Duhail SC
+#4173,,, # Al Sadd SC
+#6193,,, # Al Ahli SC
+
+# Thailand
+#1031,,, # Thailand
+#1493,,, # Buriram United F.C.
+#2643,,, # Muangthong United FC
+#4175,,, # Chonburi FC
+#4941,,, # BG Pathum United FC
+#5394,,, # True Bangkok United FC
+#5395,,, # Singha Chiangrai United
+#5397,,, # Nakhonratchasima FC
+#5401,,, # Port FC
+#5402,,, # PT Prachuap FC
+#5403,,, # Ratchaburi FC
+#5404,,, # Sukhothai FC
+#5416,,, # Rayong FC
+#5600,,, # Ayutthaya United FC
+#5675,,, # Uthai Thani FC
+#5829,,, # Lamphun Warriors FC
+#5965,,, # Kanchanaburi Power FC
+
+# Uni Emirat Arab
+#1032,,, # Uni Emirat Arab
+#4176,,, # Shabab Al Ahli Dubai FC
+#4953,,, # Al Wahda FC
+#5388,,, # Al Wasl FC
+#5676,,, # Sharjah FC
+
+# Aljazair
+#1040,,, # Aljazair
+
+# Burkina Faso
+#1044,,, # Burkina Faso
+
+# Pantai Gading
+#1051,,, # Pantai Gading
+
+# Ghana
+#1058,,, # Ghana
+
+# Guinea
+#1059,,, # Guinea
+
+# Mali
+#1067,,, # Mali
+
+# Zambia
+#1083,,, # Zambia
+
+# Kanada
+#1099,,, # Kanada
+#4156,,, # CF Montréal
+#4165,,, # Toronto FC
+#4166,,, # Vancouver Whitecaps FC
+
+# Panama
+#1113,,, # Panama
+
+# Bolivia
+#1128,,, # Bolivia
+
+# Venezuela
+#1129,,, # Venezuela
+
+# Selandia Baru
+#1141,,, # Selandia Baru
+
+# Israel
+#1164,,, # Israel
+
+# Albania
+#1165,,, # Albania
+
+# Azerbaijan
+#1168,,, # Azerbaijan
+#4326,,, # Qarabağ FK
+
+# Siprus
+#1171,,, # Siprus
+#555,,, # Pafos FC
+
+# Georgia
+#1174,,, # Georgia
+
+# Islandia
+#1175,,, # Islandia
+
+# Kazakhstan
+#1176,,, # Kazakhstan
+#554,,, # FC Kairat Almaty
+
+# Makedonia Utara
+#1180,,, # Makedonia Utara
+
+# Malta
+#1181,,, # Malta
+
+# Uzbekistan
+#1184,,, # Uzbekistan
+#4178,,, # FC Nasaf
+#6196,,, # FC Andijan
+
+# Serbia
+#1550,,, # Serbia
+#1223,,, # FK Crvena zvezda
+
+# Montenegro
+#1551,,, # Montenegro
+
+# Andorra
+#5644,,, # FC Andorra
+
+# Bangladesh
+#5744,,, # Bangladesh
+
+# Kamboja
+#5745,,, # Kamboja
+
+# Hong Kong, Tiongkok
+#5748,,, # Hong Kong, Tiongkok
+#5133,,, # Eastern SC
+#6191,,, # Tai Po FC
+
+# India
+#5749,,, # India
+#5769,,, # FC Goa
+#6038,,, # Mohun Bagan Super Giant
+
+# Indonesia
+#5750,,, # Indonesia
+#501,,, # Madura United FC
+#503,,, # Bhayangkara Presisi
+#507,,, # Borneo FC Samarinda
+#509,,, # Persita Tangerang
+#511,,, # Persis Solo
+#512,,, # Dewa United FC
+#513,,, # PSBS Biak
+#514,,, # Semen Padang FC
+#515,,, # Malut United FC
+#516,,, # PSIM Yogyakarta
+#517,,, # Persijap Jepara
+#1339,,, # Persebaya Surabaya
+#1480,,, # Arema FC
+#1579,,, # Persik Kediri
+#4945,,, # Persib Bandung
+#5589,,, # Persija Jakarta
+#5930,,, # Bali United FC
+#5931,,, # PSM Makassar
+
+# Kirgizstan
+#5751,,, # Kirgizstan
+
+# Malaysia
+#5752,,, # Malaysia
+#4948,,, # Johor Darul Ta'zim FC
+#6041,,, # Selangor FC
+
+# Myanmar
+#5755,,, # Myanmar
+
+# Nepal
+#5756,,, # Nepal
+
+# Palestina
+#5757,,, # Palestina
+
+# Filipina
+#5758,,, # Filipina
+#5775,,, # Kaya FC-Iloilo
+
+# Singapura
+#5759,,, # Singapura
+#4115,,, # Tampines Rovers FC
+#5598,,, # Lion City Sailors FC
+
+# Vietnam
+#5763,,, # Vietnam
+#6044,,, # Nam Dinh FC
+#6114,,, # Cong An Hanoi FC
+
+# Kenya
+#5986,,, # Kenya
+
+# Somalia
+#5987,,, # Somalia
+
+# Laos
+#5988,,, # Laos
+
+# Brunei
+#6051,,, # Brunei
+
+# Timor-Leste
+#6052,,, # Timor-Leste
+
+# Botswana
+#6061,,, # Botswana
+
+# Rd Kongo
+#6062,,, # Rd Kongo
+
+# Gabon
+#6063,,, # Gabon
+
+# Zimbabwe
+#6064,,, # Zimbabwe
+
+# Guatemala
+#6065,,, # Guatemala
+
+# Turkmenistan
+#5875,,, # Ahal FC
+#6195,,, # Arkadag FK
+
+# Tajikistan
+#5599,,, # FC Istiklol Dushanbe
+
+# Premier League
+
+#100, 007, Old Trafford, EPL\Old Trafford                               # Manchester United
+#101, 015, Emirates Stadium, EPL\Emirates Stadium                       # Arsenal FC
+#102, 009, Stamford Bridge, EPL\Stamford Bridge                         # Chelsea FC
+#103, 004, Anfield Road, EPL\Anfield                                    # Liverpool FC
+#105, 043, London Stadium, EPL\London Stadium                           # West Ham United
+#173, 012, Etihad Stadium, EPL\Etihad Stadium                           # Manchester City
+#178, 034, Craven Cottage, EPL\Craven Cottage                           # Fulham FC
+#4071, 019, Vitality Stadium, EPL\Vitality Stadium                      # AFC Bournemouth
+
+# Bundesliga
+
+#126, 051, Signal Iduna Park, Bundesliga\Signal Iduna Park		# Borussia Dortmund
+#127, 011, Allianz Arena, Bundesliga\Allianz Arena			# FC Bayern München
+226, 017, Deutsche Bank Park, Bundesliga\Deutsche Bank Park		# Eintracht Frankfurt
+#5010, 046, Red Bull Arena, Bundesliga\Red Bull Arena			# RB Leipzig
+
+# La Liga
+
+#108, 002, Olimpiade Lluis Companys, La Liga\Olimpiade Lluis Companys    # FC Barcelona
+#109, 020, Santiago Bernabeu, La Liga\Santiago Bernabeu                  # Real Madrid CF
+#110, 040, Camp de Mestalla, La Liga\Mestalla                            # Valencia CF
+#172, 036, Wanda Metropolitano, La Liga\Wanda Metropolitano              # Atletico de Madrid
+#265, 003, Ramon Sanchez Pizjuan, La Liga\Ramon Sanchez Pizjuan          # Sevilla FC
+
+# Serie A
+
+#119, 001, Giuseppe Meazza, Serie A\Giuseppe Meazza                      # Internazionale
+#120, 022, Allianz Stadium, Serie A\Allianz Stadium                      # Juventus FC
+#121, 030, San Siro, Serie A\San Siro                                    # AC Milan
+#125, 006, Stadio Olimpico, Serie A\Olimpico Rome                        # AS Roma / Lazio
+
+# Ligue 1
+
+#113, 018, Stade Velodrome, Ligue 1\Stade Velodrome                      # Olympique de Marseille
+#114, 010, Parc des Princes, Ligue 1\Parc des Princes                    # Paris Saint-Germain
+
+# EFL SkyBet Championship & League One
+
+#378, 027, Turf Moor, @PACK\Stadium AZ x OG				# Burnley FC
+#387, 042, The Den, @PACK\Stadium AZ x OG				# Millwall FC
+#5086, 052, Kassam Stadium, @PACK\Stadium AZ x OG			# Oxford United
+
